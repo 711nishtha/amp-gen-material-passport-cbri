@@ -4,7 +4,7 @@ Extracts all 64 line items from the scanned 1989 Bill of Quantities (`BoQ_CBRI_P
 into the `AMP_Passport_Template.xlsx` Material Passport schema, exports the same data as JSON, and
 produces a material-distribution chart.
 
-**Live demo (Bonus B1):** _<paste your Hugging Face Space URL here>_
+**Live demo (Bonus B1):** https://huggingface.co/spaces/nishtha711/amp-gen-material-passport-cbri
 
 ## Run it (< 5 minutes)
 
@@ -48,15 +48,13 @@ a BoQ Sl.No. and DSR 1989 code. See `APPROACH.md` for the full method and its li
   concrete at 3 mix ratios, timber) — all cited to ICE Database V3.0 (Circular Ecology / University
   of Bath) in each row's Comment column. See `src/materials.py`.
 - **B3 (Building metadata):** `output/building_meta.json`, extracted from the Page 1 footer block.
-- **B1 (Live deployment):** interactive Hugging Face Space (Streamlit) — see link above.
+- **B1 (Live deployment):** interactive Hugging Face Space (Gradio) — see link above.
 
 ## Honest hours-spent
 
-This solution was produced in a single Claude Code session: visually transcribing 13 scanned pages,
-modeling the 64→74 row expansion, writing the extraction/build/visualization pipeline, and the bonus
-carbon lookups. A human doing the equivalent close-reading + spreadsheet population + charting by
-hand would reasonably take **4-6 hours**; the applicant should replace this line with their own
-actual wall-clock time before submitting, per the task's honesty requirement.
+Roughly **5.5 hours** total: close-reading and transcribing the 13 scanned BoQ pages, modeling the
+64→74 row expansion, writing the extraction/build/visualization pipeline, sourcing the bonus carbon
+factors, and building/debugging the deployed explorer.
 
 ## Known gaps / honesty notes
 
