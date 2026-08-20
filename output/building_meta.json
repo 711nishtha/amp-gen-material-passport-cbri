@@ -1,0 +1,19 @@
+{
+  "source_document": "P/Gen(Modified)/BK/10T",
+  "institute": "Central Building Research Institute, Roorkee (U.P.)",
+  "name_of_work": "Bill of Quantities for Principal's Residence (General-Modified)",
+  "schedule": "Schedule 'A'",
+  "dsr_edition": "DSR 1989",
+  "depth_of_foundation_m": 0.6,
+  "plinth_height_m": 0.45,
+  "plinth_area_sqm": 90.6,
+  "class_designation_of_brick": null,
+  "no_of_items": 64,
+  "seismic_zone": "I to IV and V",
+  "bearing_capacity": "10T/Sq.m and above",
+  "notes": [
+    "Class Designation of Brick value is illegible/cut off at the bottom edge of the Page 1 scan; left as null rather than guessed.",
+    "Handwritten header note on Page 1 reads 'A|X7|I to IV and V', apparently annotating the Seismic Zone applicability.",
+    "Item 17(ii) reinforcement quantity is given in the scan as '1375.0/1500.0 Kg' with a footnote that the '*' value (1500.0) applies for Seismic Zone V."
+  ]
+}
